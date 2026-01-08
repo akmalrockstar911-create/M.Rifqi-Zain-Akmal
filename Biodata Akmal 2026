@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Muhammad Rifqi Zain Akmal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9fffaff; /* WARNA BACKGROUND HALAMAN */
+        }
+
+        .container {
+            width: 1000px;
+            margin: 50px auto;
+            background-color: #a0ffffff; /* BACKGROUND KONTEN */
+            padding: 25px;
+            border-radius: 50px;
+            box-shadow: 0 0 10px rgba(0, 4, 255, 0.39);
+            position: relative;
+        }
+
+        .foto {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .foto img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 90px;
+            border: 2px solid #070044ff;
+        }
+
+        h1 {
+            text-align: center;
+            color: #000000ff; /* WARNA TEKS JUDUL */
+            margin-bottom: 35px;
+        }
+
+        .content {
+            margin-left: 160px;
+        }
+
+        p {
+            margin-bottom: 22px; /* JARAK PARAGRAF */
+            padding-bottom: 10px;
+            border-bottom: 1px solid #90caf9;
+            line-height: 1.8;
+            color: #263238; /* WARNA TEKS ISI */
+            text-align: justify;
+        }
+
+        p:last-child {
+            border-bottom: none;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #000000ff; /* WARNA LABEL */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="foto">
+        <img src="Akmal.jpg" alt="Foto Profil">
+    </div>
+
+    <h1>Biodata Saya</h1>
+
+    <div class="content">
+        <p><span class="label">Nama:</span> Muhammad Rifqi Zain Akmal</p>
+
+        <p><span class="label">Alamat:</span> Gunung Madu Plantations,GMP Perumahan II</p>
+
+        <p><span class="label">Tempat, Tanggal Lahir:</span> Lampung Tengah, 13 Mei 2007</p>
+
+        <p><span class="label">Hobi:</span> Menggambar Komik, Game</p>
+
+        <p><span class="label">Cita-cita:</span> Mangaka</p>
+
+        <p><span class="label">Email:</span> akmalrockstar911@email.com</p>
+
+        <p>
+            Nama saya Muhammad Rifqi Zain Akmal saya lahir di Gunung Madu Plantations dan Tanggal lahir saya 13-05-2007
+            orang tua saya dulunya tinggal di bandar jaya lalu pindah ke GMP tahun 1996,saya mempunyai Kakak pertama yang bernama Muhammad Rizki Ramadhan
+            Saya dulu TK Satya Dharma Sudjana,lalu setahun kemudian saya lanjut di SDN 1 Gunung Madu Madu,setelah saya lulus tahun 2020,saya lanjut SMP Satya Dharma Sudjana.
+            3 Tahun Kemudian setelah saya lulus tahun 2023,saya daftar sekolah di SMA Gunung Madu di SITE A PT GMP sebagai mahasiswa SMA pertama di Gunung Madu tersebut.
+            Saya memiliki Skill yaitu menggambar karena saya dari kecil saya suka melihat sang pencipta menggambar sesuatu seperti Pemandangan,Kota,dan lain-lain..
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
